@@ -93,8 +93,32 @@ p {
     margin-right: 175px;
     margin-bottom: 30px;
 }
-.block {
+.reaction_block {
+    background-color: #ffe7e7; 
+    padding:  16px;
+    border-radius: 8px;
+    height: 56px;
+    width: 288px; 
+
+}
+.memory_block {
+    background-color:  #fff8eb;
+    padding:  16px;
+    border-radius: 8px;
+    height: 56px;
+    width: 288px; 
+
+}
+.verbal_block {
     background-color: #f0fdf4; 
+    padding:  16px;
+    border-radius: 8px;
+    height: 56px;
+    width: 288px; 
+
+}
+.visual_block {
+    background-color: #e3e6ff; 
     padding:  16px;
     border-radius: 8px;
     height: 56px;
@@ -107,6 +131,7 @@ p {
     justify-content: space-between; 
     font-family: Arial, sans-serif; 
     color: #15803d; 
+    opacity: 100%;
 }
 
 .icon {
@@ -153,7 +178,7 @@ p {
 
 .score {
     font-size: 20px;
-    font-weight: 700; 
+    font-weight: 550; 
     color: #1f2937;
     margin-left: auto; 
     color: #303B59;
@@ -163,12 +188,10 @@ p {
 }
 .max_score {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 550;
     color:#303B59af; 
     opacity: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 10px;
 }
 
 button {
